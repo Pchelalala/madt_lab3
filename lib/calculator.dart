@@ -9,14 +9,14 @@ String operators = '';
 String equation = '0';
 String result = '';
 
-class ScientificCalculator extends StatefulWidget {
-  const ScientificCalculator({Key? key}) : super(key: key);
+class Calculator extends StatefulWidget {
+  const Calculator({Key? key}) : super(key: key);
 
   @override
-  _ScientificCalculatorState createState() => _ScientificCalculatorState();
+  _CalculatorState createState() => _CalculatorState();
 }
 
-class _ScientificCalculatorState extends State<ScientificCalculator> {
+class _CalculatorState extends State<Calculator> {
   bool scientificKeyboard = false;
 
   @override
