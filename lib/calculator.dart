@@ -22,14 +22,11 @@ class _CalculatorState extends State<Calculator> {
   @override
   void initState() {
     super.initState();
-    initialise();
   }
 
   String expression = '';
   double equationFontSize = 35.0;
   double resultFontSize = 25.0;
-
-  void initialise() {}
 
   void _onPressed({String? buttonText}) {
     switch (buttonText) {
